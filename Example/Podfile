@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WTStepper_Example' do
+  pod 'WTStepper', :path => '../'
+
+  target 'WTStepper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
