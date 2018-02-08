@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1274BE164D194DE3B148B724B3F73A60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1274BE164D194DE3B148B724B3F73A60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		2DA692F75BF49283A800FBE13CE50C45 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */; };
 		327B82CB57F04BE26BF0B0ED4D4B07A6 /* Pods-WTStepper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0CEDA388E312EEC6D064E72B36A6B /* Pods-WTStepper_Example-dummy.m */; };
-		5E992C5E4C113CAF2EFF870A9BBD52E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		37A629A80494301DCC6ED8922F3EDEC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3917A50EB224EEDBC66971700D698782 /* UIKit.framework */; };
 		615F77EAE670726C920FBF60F13FE8ED /* Pods-WTStepper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B3B56E2843D02B61B5D4E03F2EC19D /* Pods-WTStepper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		618EB495202D067B00B6D58A /* WTStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618EB494202D067B00B6D58A /* WTStepper.swift */; };
-		618EB496202D067B00B6D58A /* WTStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618EB494202D067B00B6D58A /* WTStepper.swift */; };
-		6254245020DFFB7432F0AD9B7FB3266A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6254245020DFFB7432F0AD9B7FB3266A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
 		73655C71B29EF172A6910DB1039ABE66 /* Pods-WTStepper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E0EDDD6FF29F4F7B04FA88F5DC210A /* Pods-WTStepper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9039813783C61C393827B9CA01C2C1C6 /* WTStepper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F03E5B26C3603274B9F1842CD051EC /* WTStepper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8974AB7E9D7CB9BAB521BF94F3D23251 /* WTStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C300572AC405D4B86B5C9E4AD1FD23 /* WTStepper.swift */; };
+		9039813783C61C393827B9CA01C2C1C6 /* WTStepper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E70B215E77CB1D3F3DD046E6FAAF45F /* WTStepper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFE49195F59A25A008AE9646F1C37ABD /* WTStepper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712ABF96EE663B8CBC23EE6597D7FC6 /* WTStepper-dummy.m */; };
 		EE886C9C11FCAF224F63393FF162E7BD /* Pods-WTStepper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53188FF1B64E6E92AE787291C92C0A1E /* Pods-WTStepper_Tests-dummy.m */; };
-		F5F41F16AB6DEDAEE3BCA7A33959AB9C /* WTStepper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF2ADB811294229A99CF412C90F4A6 /* WTStepper-dummy.m */; };
+		F978E81D023F5209B4CC5999C33EB3A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,36 +32,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02AF2ADB811294229A99CF412C90F4A6 /* WTStepper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTStepper-dummy.m"; sourceTree = "<group>"; };
-		06E96B0FEAE1ABCBFCE66E119C80E67A /* Pods-WTStepper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WTStepper_Tests.modulemap"; sourceTree = "<group>"; };
-		09842A50F0F7D09E49CC1337C0E8D3A7 /* WTStepper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTStepper.xcconfig; sourceTree = "<group>"; };
-		1FF9EDCF41E87B1EEB1C08E913131F2E /* WTStepper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTStepper-prefix.pch"; sourceTree = "<group>"; };
+		06E96B0FEAE1ABCBFCE66E119C80E67A /* Pods-WTStepper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WTStepper_Tests.modulemap"; sourceTree = "<group>"; };
+		24C300572AC405D4B86B5C9E4AD1FD23 /* WTStepper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WTStepper.swift; path = WTStepper/Classes/WTStepper.swift; sourceTree = "<group>"; };
+		2E70B215E77CB1D3F3DD046E6FAAF45F /* WTStepper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTStepper-umbrella.h"; sourceTree = "<group>"; };
+		2EFD6F75ADD15ED9075F7D215E19E728 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31E0EDDD6FF29F4F7B04FA88F5DC210A /* Pods-WTStepper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTStepper_Example-umbrella.h"; sourceTree = "<group>"; };
+		33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3917A50EB224EEDBC66971700D698782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		42DFA4BF14B9D3B26C6A4B49988D45D4 /* Pods-WTStepper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTStepper_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		447A8A19A725CDCA3D2A256860CFAFF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4795BC757C2BBEB62CDF89AC1C64C42F /* WTStepper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WTStepper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4795BC757C2BBEB62CDF89AC1C64C42F /* WTStepper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WTStepper.framework; path = WTStepper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE0CEDA388E312EEC6D064E72B36A6B /* Pods-WTStepper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTStepper_Example-dummy.m"; sourceTree = "<group>"; };
 		53188FF1B64E6E92AE787291C92C0A1E /* Pods-WTStepper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTStepper_Tests-dummy.m"; sourceTree = "<group>"; };
-		618EB494202D067B00B6D58A /* WTStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTStepper.swift; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66B3B56E2843D02B61B5D4E03F2EC19D /* Pods-WTStepper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTStepper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6F0F5D07958175B92FA34D4B70BA86CB /* Pods-WTStepper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTStepper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7D5D046E78242C2A6E04F85EB7DB28A2 /* Pods-WTStepper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTStepper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		85450A9B5549FEAF9C05DC9DC6C5D2A2 /* WTStepper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WTStepper.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BD2FFF5BAE95A62C06B2DD7AC6F1E5C /* Pods_WTStepper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTStepper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9712ABF96EE663B8CBC23EE6597D7FC6 /* WTStepper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTStepper-dummy.m"; sourceTree = "<group>"; };
+		9BD2FFF5BAE95A62C06B2DD7AC6F1E5C /* Pods_WTStepper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WTStepper_Example.framework; path = "Pods-WTStepper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC54C5EC0299CBFEE1395E0431F35E5F /* Pods-WTStepper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTStepper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD207C5BCED47EB73FBFD12D45B572C4 /* WTStepper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WTStepper.modulemap; sourceTree = "<group>"; };
 		B5C66A8374CB74FFC379637BC1B31868 /* Pods-WTStepper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTStepper_Example-resources.sh"; sourceTree = "<group>"; };
-		BB789F0FFA45036EBDC4E336F3190D6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9AFDAFD11CA1D616E994E78EDB1B203 /* Pods-WTStepper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTStepper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CC6898856B0049ADC2C2838C1CDD9D2F /* Pods-WTStepper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WTStepper_Example.modulemap"; sourceTree = "<group>"; };
-		D4F03E5B26C3603274B9F1842CD051EC /* WTStepper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTStepper-umbrella.h"; sourceTree = "<group>"; };
+		CC6898856B0049ADC2C2838C1CDD9D2F /* Pods-WTStepper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WTStepper_Example.modulemap"; sourceTree = "<group>"; };
 		DA659691CA5C2A8BD53FF5199AFA9E33 /* Pods-WTStepper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTStepper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBEB0F9CD45043066B7B645F549DCEB3 /* WTStepper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTStepper-prefix.pch"; sourceTree = "<group>"; };
 		EABE8216A3CC8A5DA922171EE6A819D1 /* Pods-WTStepper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTStepper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		ED28EB60C90B04E8903E98E241C935FB /* Pods-WTStepper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTStepper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F141E6EDF5A1CE0FD6260A6FAE67C8A8 /* Pods_WTStepper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTStepper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05C342B795EA5B95C80230A6373D450 /* WTStepper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTStepper.xcconfig; sourceTree = "<group>"; };
+		F141E6EDF5A1CE0FD6260A6FAE67C8A8 /* Pods_WTStepper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WTStepper_Tests.framework; path = "Pods-WTStepper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29BE9CF99860513BCC5A70F59808B97 /* Pods-WTStepper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTStepper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F6D1C42BB253C9C54C3312ACFCBD35E6 /* Pods-WTStepper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTStepper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		FC83247E1B8B4EF4FA3175D9D62855F9 /* Pods-WTStepper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTStepper_Tests-resources.sh"; sourceTree = "<group>"; };
 		FCA50926AF3DCB791A9037F6D316FFFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,11 +77,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		613F828FEF6CF744ACA976E4F3FD26E2 /* Frameworks */ = {
+		33ECF4DEF05887A48B54D2A220493787 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E992C5E4C113CAF2EFF870A9BBD52E6 /* Foundation.framework in Frameworks */,
+				F978E81D023F5209B4CC5999C33EB3A6 /* Foundation.framework in Frameworks */,
+				2DA692F75BF49283A800FBE13CE50C45 /* QuartzCore.framework in Frameworks */,
+				37A629A80494301DCC6ED8922F3EDEC2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2A0882A22C0FB939E07DCDBA9FD02CEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,14 +134,18 @@
 			path = "Target Support Files/Pods-WTStepper_Example";
 			sourceTree = "<group>";
 		};
-		4CFA50F6F242DB77BA868F9514FB1D2D /* WTStepper */ = {
+		6CF7B53F17338FBA6333F0DD51ACBA1F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				618EB494202D067B00B6D58A /* WTStepper.swift */,
-				C5533436C361CA83C2346DFE4289055D /* Support Files */,
+				2EFD6F75ADD15ED9075F7D215E19E728 /* Info.plist */,
+				AD207C5BCED47EB73FBFD12D45B572C4 /* WTStepper.modulemap */,
+				F05C342B795EA5B95C80230A6373D450 /* WTStepper.xcconfig */,
+				9712ABF96EE663B8CBC23EE6597D7FC6 /* WTStepper-dummy.m */,
+				DBEB0F9CD45043066B7B645F549DCEB3 /* WTStepper-prefix.pch */,
+				2E70B215E77CB1D3F3DD046E6FAAF45F /* WTStepper-umbrella.h */,
 			);
-			name = WTStepper;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WTStepper";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -136,7 +153,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				D7B4CB44A86C64B0033C805F8DE79269 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				2A0882A22C0FB939E07DCDBA9FD02CEA /* Products */,
 				93E2118A823978E16B93839FAF76E76D /* Targets Support Files */,
 			);
@@ -160,6 +177,16 @@
 			path = "Target Support Files/Pods-WTStepper_Tests";
 			sourceTree = "<group>";
 		};
+		93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */,
+				FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */,
+				3917A50EB224EEDBC66971700D698782 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		93E2118A823978E16B93839FAF76E76D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,40 +196,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		9A0881363B2B973FB7B724BA0A567D90 /* WTStepper */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				24C300572AC405D4B86B5C9E4AD1FD23 /* WTStepper.swift */,
+				6CF7B53F17338FBA6333F0DD51ACBA1F /* Support Files */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C5533436C361CA83C2346DFE4289055D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BB789F0FFA45036EBDC4E336F3190D6A /* Info.plist */,
-				85450A9B5549FEAF9C05DC9DC6C5D2A2 /* WTStepper.modulemap */,
-				09842A50F0F7D09E49CC1337C0E8D3A7 /* WTStepper.xcconfig */,
-				02AF2ADB811294229A99CF412C90F4A6 /* WTStepper-dummy.m */,
-				1FF9EDCF41E87B1EEB1C08E913131F2E /* WTStepper-prefix.pch */,
-				D4F03E5B26C3603274B9F1842CD051EC /* WTStepper-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WTStepper";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = WTStepper;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D7B4CB44A86C64B0033C805F8DE79269 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4CFA50F6F242DB77BA868F9514FB1D2D /* WTStepper */,
+				9A0881363B2B973FB7B724BA0A567D90 /* WTStepper */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -258,8 +265,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C36EED59E041405270C8B6388C488506 /* Build configuration list for PBXNativeTarget "WTStepper" */;
 			buildPhases = (
-				F43C7049CC179D23BFC823882021C42A /* Sources */,
-				613F828FEF6CF744ACA976E4F3FD26E2 /* Frameworks */,
+				48B6874F802AE72B3298F5D0D5AF384C /* Sources */,
+				33ECF4DEF05887A48B54D2A220493787 /* Frameworks */,
 				C3B12726FBA5441B6314D5712A791BEF /* Headers */,
 			);
 			buildRules = (
@@ -297,11 +304,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					CF3CC180A4BF3829CC09D7BC35ED0FC8 = {
-						LastSwiftMigration = 0920;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -323,6 +325,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		48B6874F802AE72B3298F5D0D5AF384C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE49195F59A25A008AE9646F1C37ABD /* WTStepper-dummy.m in Sources */,
+				8974AB7E9D7CB9BAB521BF94F3D23251 /* WTStepper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5FB35B2B12E23998D95F3DFD1E8FF6CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,17 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618EB495202D067B00B6D58A /* WTStepper.swift in Sources */,
 				327B82CB57F04BE26BF0B0ED4D4B07A6 /* Pods-WTStepper_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F43C7049CC179D23BFC823882021C42A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				618EB496202D067B00B6D58A /* WTStepper.swift in Sources */,
-				F5F41F16AB6DEDAEE3BCA7A33959AB9C /* WTStepper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +481,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED28EB60C90B04E8903E98E241C935FB /* Pods-WTStepper_Example.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -504,7 +504,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -549,7 +548,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F29BE9CF99860513BCC5A70F59808B97 /* Pods-WTStepper_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -574,7 +572,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -583,7 +580,7 @@
 		};
 		A0070238979F38F644288D91EFB32930 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09842A50F0F7D09E49CC1337C0E8D3A7 /* WTStepper.xcconfig */;
+			baseConfigurationReference = F05C342B795EA5B95C80230A6373D450 /* WTStepper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -614,7 +611,7 @@
 		};
 		B6E43AD802659564A96EB9557FFA2267 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09842A50F0F7D09E49CC1337C0E8D3A7 /* WTStepper.xcconfig */;
+			baseConfigurationReference = F05C342B795EA5B95C80230A6373D450 /* WTStepper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

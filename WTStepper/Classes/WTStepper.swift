@@ -9,7 +9,7 @@ import UIKit
 import QuartzCore
 
 @IBDesignable
-class WTStepper: UIView {
+open class WTStepper: UIView {
     
     private var decrementButton: UIButton!
     private var counterLabel: UILabel!
@@ -338,7 +338,7 @@ class WTStepper: UIView {
         self.decrementButton.isUserInteractionEnabled = true
     }
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         setLayout()
         update()
@@ -350,13 +350,13 @@ class WTStepper: UIView {
     }
     
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
 }
 
 extension WTStepper: CAAnimationDelegate {
-    func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
+    public func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
         if let key = anim.value(forKey: kActionKey) as? String {
             switch key  {
             case kincrementKey:
