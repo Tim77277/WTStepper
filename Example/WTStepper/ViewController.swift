@@ -19,7 +19,11 @@ class ViewController: UIViewController {
         let defaultButtonColor  = UIColor(red: 55/255.0, green: 143/255.0, blue: 171/255.0, alpha: 1)
         let defaultCounterColor = UIColor(red: 72/255.0, green: 195/255.0, blue: 232/255.0, alpha: 1)
         
-        stepper = WTStepper(frame: CGRect(x: 100, y: 100, width: 100, height: 30))
+        let stepperWidth: CGFloat  = 100
+        let stepperHeight: CGFloat = 30
+        let stepperX = (UIScreen.main.bounds.width / 2) - (stepperWidth / 2)
+        
+        stepper = WTStepper(frame: CGRect(x: stepperX, y: 100, width: stepperWidth, height: stepperHeight))
         stepper.counterTextColor = .white
         stepper.counterBackgroundColor = defaultCounterColor
         stepper.incrementButtonText = "+"
@@ -31,12 +35,13 @@ class ViewController: UIViewController {
         stepper.cornerRadius = 5
         stepper.maximum = 10
         stepper.minimum = 0
-        stepper.repeatEnabled = true
+        stepper.repeatEnabled = false
+        stepper.shakeEnabled  = false
         stepper.step = 1
-        
-        let x = stepper.counter
+        stepper.value = 5
         
         self.view.addSubview(stepper)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

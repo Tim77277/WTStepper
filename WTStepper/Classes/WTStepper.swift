@@ -27,37 +27,37 @@ open class WTStepper: UIView {
     fileprivate static let kDefaultButtonTextColor: UIColor  = .white
     fileprivate static let kDefaultCounterTextColor: UIColor = .white
     
-    /// The `Valuable` use to determine the value of the stepper
+    /// The `valuable` use to determine the value of the stepper
     open var value: Int = 0 {
         didSet {
-            counterLabel.text = "\(value)"
+            update()
         }
     }
     
-    /// The `Valuable` use to indicate each step of the value should be incremented
+    /// The `valuable` use to indicate each step of the value should be incremented
     @IBInspectable open var step: Int = 1
     
-    /// The `Valuable` controls whether the counter should be reset when it is over the maximum
+    /// The `valuable` controls whether the counter should be reset when it is either over the maximum, or less than the minimum
     @IBInspectable open var repeatEnabled: Bool = false
     
-    /// The `Valuable` controls the shake animation
+    /// The `valuable` controls the shake animation
     @IBInspectable open var shakeEnabled: Bool = false
     
-    /// The `Valuable` controls the maximum value the stepper can reach
+    /// The `valuable` controls the maximum value the stepper can reach
     @IBInspectable open var maximum: Int = 100 {
         didSet {
             update()
         }
     }
     
-    /// The `Valuable` controls the minimum value the stepper can reach
+    /// The `valuable` controls the minimum value the stepper can reach
     @IBInspectable open var minimum: Int = 0 {
         didSet {
             update()
         }
     }
     
-    /// The `Valuable` controls stepper's cornerRadius
+    /// The `valuable` controls stepper's cornerRadius
     @IBInspectable open var cornerRadius: CGFloat = 0 {
         didSet {
             update()
