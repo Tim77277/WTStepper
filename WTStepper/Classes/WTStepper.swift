@@ -28,11 +28,10 @@ open class WTStepper: UIView {
     fileprivate static let kDefaultCounterTextColor: UIColor = .white
     
     /// The `Valuable` use to determine the value of the stepper
-    private(set) var counter: Int = 0
-    
-    open func setCounter(value: Int) {
-        counter = value
-        counterLabel.text = "\(counter)"
+    var counter: Int = 0 {
+        didSet {
+            counterLabel.text = "\(counter)"
+        }
     }
     
     /// The `Valuable` use to indicate each step of the value should be incremented
@@ -174,7 +173,6 @@ open class WTStepper: UIView {
         }
         
         counter = (repeatEnabled && counter == maximum) ? minimum : min(counter + step, maximum)
-        counterLabel.text = "\(counter)"
     }
     
     
@@ -196,8 +194,6 @@ open class WTStepper: UIView {
         }
         
         counter = (repeatEnabled && counter == minimum) ? maximum : max(counter - step, minimum)
-        
-        counterLabel.text = "\(counter)"
     }
     
     
