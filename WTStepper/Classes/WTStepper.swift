@@ -28,7 +28,7 @@ open class WTStepper: UIView {
     fileprivate static let kDefaultCounterTextColor: UIColor = .white
     
     /// The `Valuable` use to determine the value of the stepper
-    var counter: Int = 0 {
+    open var counter: Int = 0 {
         didSet {
             counterLabel.text = "\(counter)"
         }
@@ -37,7 +37,7 @@ open class WTStepper: UIView {
     /// The `Valuable` use to indicate each step of the value should be incremented
     @IBInspectable open var step: Int = 1
     
-    /// The `Valuable` controls the maximum value the stepper can reach
+    /// The `Valuable` controls whether the counter should be reset when it is over the maximum
     @IBInspectable open var repeatEnabled: Bool = false
     
     /// The `Valuable` controls the shake animation
