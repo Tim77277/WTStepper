@@ -30,7 +30,7 @@ WTStepper is a customizable stepper purely written in Swift. It is easy to use a
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Pod/Classes/WTStepper/*'
+  s.source_files = 'WTStepper/*'
   
   # s.resource_bundles = {
   #   'WTStepper' => ['WTStepper/Assets/*.png']
