@@ -1,0 +1,22 @@
+{
+  "name": "WTStepper",
+  "version": "0.1.0",
+  "summary": "A short description of WTStepper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gsl0318@hotmail.com/WTStepper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gsl0318@hotmail.com": "gsl0318@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gsl0318@hotmail.com/WTStepper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WTStepper/Classes/**/*"
+}

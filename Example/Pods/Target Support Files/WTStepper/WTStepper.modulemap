@@ -1,0 +1,6 @@
+framework module WTStepper {
+  umbrella header "WTStepper-umbrella.h"
+
+  export *
+  module * { export * }
+}
