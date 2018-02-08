@@ -28,9 +28,9 @@ open class WTStepper: UIView {
     fileprivate static let kDefaultCounterTextColor: UIColor = .white
     
     /// The `Valuable` use to determine the value of the stepper
-    open var counter: Int = 0 {
+    open var value: Int = 0 {
         didSet {
-            counterLabel.text = "\(counter)"
+            counterLabel.text = "\(value)"
         }
     }
     
@@ -172,7 +172,7 @@ open class WTStepper: UIView {
             shakeCounter()
         }
         
-        counter = (repeatEnabled && counter == maximum) ? minimum : min(counter + step, maximum)
+        value = (repeatEnabled && value == maximum) ? minimum : min(value + step, maximum)
     }
     
     
@@ -193,7 +193,7 @@ open class WTStepper: UIView {
             shakeCounter()
         }
         
-        counter = (repeatEnabled && counter == minimum) ? maximum : max(counter - step, minimum)
+        value = (repeatEnabled && value == minimum) ? maximum : max(value - step, minimum)
     }
     
     
@@ -258,7 +258,7 @@ open class WTStepper: UIView {
             counterLabel.textColor = counterTextColor
             counterLabel.backgroundColor = counterBackgroundColor
             counterLabel.textAlignment = .center
-            counterLabel.text = "\(counter)"
+            counterLabel.text = "\(value)"
             counterLabel.font = UIFont.boldSystemFont(ofSize: counterTextFontSize)
             counterLabel.adjustsFontSizeToFitWidth = true
             counterLabel.minimumScaleFactor = 0.5
@@ -294,7 +294,7 @@ open class WTStepper: UIView {
         /// inital counter label
         if counterLabel == nil {
             counterLabel = UILabel(frame: CGRect(x: buttonWidth, y: 0, width: labelWidth, height: self.frame.height))
-            counterLabel.text = "\(counter)"
+            counterLabel.text = "\(value)"
         }
         
         self.addSubview(decrementButton)

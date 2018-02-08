@@ -34,7 +34,8 @@ class ViewController: UIViewController {
         stepper.repeatEnabled = true
         stepper.step = 1
         
-
+        let x = stepper.counter
+        
         self.view.addSubview(stepper)
         // Do any additional setup after loading the view, typically from a nib.
     }
