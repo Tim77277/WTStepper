@@ -11,9 +11,11 @@ import WTStepper
 
 class ViewController: UIViewController {
     
+    var stepper: WTStepper!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        stepper = WTStepper()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

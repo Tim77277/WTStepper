@@ -28,124 +28,128 @@ open class WTStepper: UIView {
     fileprivate static let kDefaultCounterTextColor: UIColor = .white
     
     /// The `Valuable` use to determine the value of the stepper
-    var counter: Int = 0
+    private(set) var counter: Int = 0
     
+    open func setCounter(value: Int) {
+        counter = value
+        counterLabel.text = "\(counter)"
+    }
     
     /// The `Valuable` use to indicate each step of the value should be incremented
-    @IBInspectable var step: Int = 1
+    @IBInspectable open var step: Int = 1
     
     /// The `Valuable` controls the maximum value the stepper can reach
-    @IBInspectable var repeatEnabled: Bool = false
+    @IBInspectable open var repeatEnabled: Bool = false
     
     /// The `Valuable` controls the shake animation
-    @IBInspectable var shakeEnabled: Bool = false
+    @IBInspectable open var shakeEnabled: Bool = false
     
     /// The `Valuable` controls the maximum value the stepper can reach
-    @IBInspectable var maximum: Int = 100 {
+    @IBInspectable open var maximum: Int = 100 {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls the minimum value the stepper can reach
-    @IBInspectable var minimum: Int = 0 {
+    @IBInspectable open var minimum: Int = 0 {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls stepper's cornerRadius
-    @IBInspectable var cornerRadius: CGFloat = 0 {
+    @IBInspectable open var cornerRadius: CGFloat = 0 {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls the color of the decrementButton
-    @IBInspectable var decrementButtonColor: UIColor = kDefaultButtonColor {
+    @IBInspectable open var decrementButtonColor: UIColor = kDefaultButtonColor {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls decrementButton's text color
-    @IBInspectable var decrementButtonTextColor: UIColor = .white {
+    @IBInspectable open var decrementButtonTextColor: UIColor = .white {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls the text of the decrementButton
-    @IBInspectable var decrementButtonText: String = "" {
+    @IBInspectable open var decrementButtonText: String = "" {
         didSet {
             update()
         }
     }
     
-    @IBInspectable var decrementButtonImage: UIImage? = nil {
+    @IBInspectable open var decrementButtonImage: UIImage? = nil {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls the size of the decrementButton text
-    @IBInspectable var decrementButtonTextFontSize: CGFloat = 20 {
+    @IBInspectable open var decrementButtonTextFontSize: CGFloat = 20 {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls the color of the incrementButton
-    @IBInspectable var incrementButtonColor: UIColor = kDefaultButtonColor {
+    @IBInspectable open var incrementButtonColor: UIColor = kDefaultButtonColor {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls incrementButton's text color
-    @IBInspectable var incrementButtonTextColor: UIColor = kDefaultButtonTextColor {
+    @IBInspectable open var incrementButtonTextColor: UIColor = kDefaultButtonTextColor {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls incrementButton text
-    @IBInspectable var incrementButtonText: String = "" {
+    @IBInspectable open var incrementButtonText: String = "" {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls incrementButton image
-    @IBInspectable var incrementButtonImage: UIImage? = nil {
+    @IBInspectable open var incrementButtonImage: UIImage? = nil {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls the size of the incrementButton text
-    @IBInspectable var incrementButtonTextFontSize: CGFloat = 20 {
+    @IBInspectable open var incrementButtonTextFontSize: CGFloat = 20 {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls counterLabel background color
-    @IBInspectable var counterBackgroundColor: UIColor = kDefaultCounterColor {
+    @IBInspectable open var counterBackgroundColor: UIColor = kDefaultCounterColor {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls counterLabel text color
-    @IBInspectable var counterTextColor: UIColor = kDefaultCounterTextColor {
+    @IBInspectable open var counterTextColor: UIColor = kDefaultCounterTextColor {
         didSet {
             update()
         }
     }
     
     /// The `Valuable` controls counterLabel text size
-    @IBInspectable var counterTextFontSize: CGFloat = 22 {
+    @IBInspectable open var counterTextFontSize: CGFloat = 22 {
         didSet {
             update()
         }
