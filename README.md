@@ -22,7 +22,7 @@ pod 'WTStepper'
 
 ## Author
 
-gsl0318@hotmail.com, gsl0318@hotmail.com
+WEI-TING LIN, gsl0318@hotmail.com
 
 ## License
 
