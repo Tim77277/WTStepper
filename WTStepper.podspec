@@ -26,7 +26,7 @@ WTStepper is a customizable stepper purely written in Swift. It is easy to use a
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Wei-Ting Lin' => 'gsl0318@hotmail.com' }
   # s.version.to_s
-  s.source           = { :git => 'https://github.com/Tim77277/WTStepper.git', :tag => '0.1.0' }
+  s.source           = { :git => 'https://github.com/Tim77277/WTStepper.git', :tag => '1.0.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
