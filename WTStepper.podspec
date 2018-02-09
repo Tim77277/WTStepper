@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WTStepper'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'A customizable stepper purely written in Swift.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,6 @@ WTStepper is a customizable stepper purely written in Swift. It is easy to use a
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Wei-Ting Lin' => 'gsl0318@hotmail.com' }
-  # s.version.to_s
   s.source           = { :git => 'https://github.com/Tim77277/WTStepper.git', :tag => '1.0.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
