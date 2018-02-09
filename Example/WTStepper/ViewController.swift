@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         let stepperHeight: CGFloat = 30
         let stepperX = (UIScreen.main.bounds.width / 2) - (stepperWidth / 2)
         
-        stepper = WTStepper(frame: CGRect(x: stepperX, y: 100, width: stepperWidth, height: stepperHeight))
+        stepper = WTStepper(frame: CGRect(x: stepperX, y: 80, width: stepperWidth, height: stepperHeight))
         stepper.counterTextColor = .white
         stepper.counterBackgroundColor = defaultCounterColor
         stepper.incrementButtonText = "+"

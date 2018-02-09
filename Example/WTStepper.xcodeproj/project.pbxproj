@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1265BE9D9D2272CF5E4B6DA2 /* WTStepper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WTStepper.podspec; path = ../WTStepper.podspec; sourceTree = "<group>"; };
+		1265BE9D9D2272CF5E4B6DA2 /* WTStepper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WTStepper.podspec; path = ../WTStepper.podspec; sourceTree = "<group>"; };
 		20B6F6111D5CFCD260F90C08 /* Pods-WTStepper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTStepper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTStepper_Tests/Pods-WTStepper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		317594A846DDA6815D2B2402 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		317594A846DDA6815D2B2402 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WTStepper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTStepper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6EB31286AAC6010B77E954E2 /* Pods-WTStepper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTStepper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTStepper_Example/Pods-WTStepper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		88B38F6B0CF5700AEA30D8FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		88B38F6B0CF5700AEA30D8FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A5E714A326CBD69A391D3648 /* Pods-WTStepper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTStepper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTStepper_Example/Pods-WTStepper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BF9D13B4BEECEAEE2BBA0036 /* Pods-WTStepper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTStepper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTStepper_Tests/Pods-WTStepper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E2C4EDB18B3580D2AEF9C5CD /* Pods_WTStepper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTStepper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };

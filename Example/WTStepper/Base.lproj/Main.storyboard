@@ -20,11 +20,194 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="agU-yw-kFe">
+                                <rect key="frame" x="137.5" y="210" width="100" height="200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t2s-ll-jU3" customClass="WTStepper" customModule="WTStepper">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="25"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="decrementButtonColor">
+                                                <color key="value" red="0.77820533514022827" green="0.19899427890777588" blue="0.38039535284042358" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="incrementButtonColor">
+                                                <color key="value" red="0.77820533510000001" green="0.19899427889999999" blue="0.38039535279999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="counterBackgroundColor">
+                                                <color key="value" red="0.87653475999832153" green="0.41999822854995728" blue="0.57255703210830688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="decrementButtonText" value="-"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="incrementButtonText" value="+"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFu-4p-OwU" customClass="WTStepper" customModule="WTStepper">
+                                        <rect key="frame" x="0.0" y="35" width="100" height="25"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="decrementButtonColor">
+                                                <color key="value" red="0.51103240251541138" green="0.17545944452285767" blue="0.64317208528518677" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="incrementButtonColor">
+                                                <color key="value" red="0.51103240250000004" green="0.17545944450000001" blue="0.64317208530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="counterBackgroundColor">
+                                                <color key="value" red="0.68694001436233521" green="0.42466703057289124" blue="0.76473730802536011" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="decrementButtonText" value="-"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="incrementButtonText" value="+"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="step">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maximum">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minimum">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yiJ-V1-cZE" customClass="WTStepper" customModule="WTStepper">
+                                        <rect key="frame" x="0.0" y="70" width="100" height="25"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="decrementButtonColor">
+                                                <color key="value" red="0.26109719276428223" green="0.58274739980697632" blue="0.6470714807510376" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="incrementButtonColor">
+                                                <color key="value" red="0.26109719279999999" green="0.58274739980000001" blue="0.64707148079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="counterBackgroundColor">
+                                                <color key="value" red="0.45257824659347534" green="0.78440006971359255" blue="0.87060213088989258" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="decrementButtonText" value="-"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="incrementButtonText" value="+"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minimum">
+                                                <integer key="value" value="-10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maximum">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="step">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4sz-Id-Ch6" customClass="WTStepper" customModule="WTStepper">
+                                        <rect key="frame" x="0.0" y="105" width="100" height="25"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="13"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="decrementButtonColor">
+                                                <color key="value" red="0.87544947862625122" green="0.45515686273574829" blue="0.17243242263793945" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="incrementButtonColor">
+                                                <color key="value" red="0.8754494786" green="0.4551568627" blue="0.1724324226" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="counterBackgroundColor">
+                                                <color key="value" red="0.93030506369999999" green="0.67224794629999995" blue="0.2743852437" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="decrementButtonText" value="-"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="incrementButtonText" value="+"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="repeatEnabled" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="step">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maximum">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minimum">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cbW-Vd-1NR" customClass="WTStepper" customModule="WTStepper">
+                                        <rect key="frame" x="0.0" y="140" width="100" height="25"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="13"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="decrementButtonColor">
+                                                <color key="value" red="0.31346070766448975" green="0.54905760288238525" blue="0.27445650100708008" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="incrementButtonColor">
+                                                <color key="value" red="0.31346070770000001" green="0.54905760290000005" blue="0.27445650100000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="counterBackgroundColor">
+                                                <color key="value" red="0.56843799352645874" green="0.77247160673141479" blue="0.5411418080329895" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="decrementButtonText" value="-"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="incrementButtonText" value="+"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shakeEnabled" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maximum">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minimum">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="step">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pMN-6A-5hE" customClass="WTStepper" customModule="WTStepper">
+                                        <rect key="frame" x="0.0" y="175" width="100" height="25"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="13"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="decrementButtonColor">
+                                                <color key="value" red="0.35024365782737732" green="0.4303414523601532" blue="0.47451728582382202" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="incrementButtonColor">
+                                                <color key="value" red="0.3502436578" green="0.43034145239999999" blue="0.47451728580000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="counterBackgroundColor">
+                                                <color key="value" red="0.58126354217529297" green="0.64230829477310181" blue="0.67843800783157349" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="decrementButtonText" value="-"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="incrementButtonText" value="+"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="DiU-yE-NPH"/>
+                                    <constraint firstAttribute="height" constant="200" id="phv-aw-gif"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WTStepper" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdO-ic-byB">
+                                <rect key="frame" x="20" y="130" width="335" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="textColor" red="0.3146011829" green="0.55430632830000004" blue="0.65883988140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cdO-ic-byB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="RDn-Ld-2QT"/>
+                            <constraint firstItem="cdO-ic-byB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="110" id="auu-jC-LNE"/>
+                            <constraint firstItem="agU-yw-kFe" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="h3j-HT-F1D"/>
+                            <constraint firstItem="agU-yw-kFe" firstAttribute="top" secondItem="cdO-ic-byB" secondAttribute="bottom" constant="50" id="pBB-is-7t9"/>
+                            <constraint firstAttribute="trailing" secondItem="cdO-ic-byB" secondAttribute="trailing" constant="20" id="xbh-rg-4Ty"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="31.934032983508249"/>
         </scene>
     </scenes>
 </document>
