@@ -4,6 +4,7 @@
 
 language: objective-c
 osx_image: xcode7.3
+podfile: Example/Podfile
 
 branches:
   only:
@@ -15,6 +16,7 @@ before_install:
   - gem install xcpretty -N
   - brew update
   - brew install swiftlint || true
+  - pod install --project-directory=Example
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
