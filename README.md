@@ -1,6 +1,5 @@
 
 ![Brand](https://github.com/Tim77277/WTStepper/blob/master/Images/brand.png "WTStepper")
-# WTStepper
 
 [![Version](https://img.shields.io/cocoapods/v/WTStepper.svg?style=flat)](http://cocoapods.org/pods/WTStepper)
 [![License](https://img.shields.io/cocoapods/l/WTStepper.svg?style=flat)](http://cocoapods.org/pods/WTStepper)
