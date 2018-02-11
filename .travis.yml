@@ -22,5 +22,6 @@ before_install:
 # - pod install --project-directory=Example
 script:
 - set -o pipefail 
+- xcodebuild -project Example/WTStepper/Classes/WTStepper.swift -scheme WTStepper -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
 - xcodebuild -workspace Example/WTStepper.xcworkspace -scheme WTStepper-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
 - swiftlint
