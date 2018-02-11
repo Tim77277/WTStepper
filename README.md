@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/WTStepper.svg?style=flat)](http://cocoapods.org/pods/WTStepper)
 [![Platform](https://img.shields.io/cocoapods/p/WTStepper.svg?style=flat)](http://cocoapods.org/pods/WTStepper)
 
+## Screen
+![WTStepperDemoGif](https://thumbs.gfycat.com/PitifulCreamyHare-size_restricted.gif)
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
