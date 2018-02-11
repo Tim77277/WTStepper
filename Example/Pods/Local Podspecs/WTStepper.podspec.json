@@ -1,6 +1,6 @@
 {
   "name": "WTStepper",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "summary": "A customizable stepper purely written in Swift.",
   "description": "WTStepper is a customizable stepper purely written in Swift. It is easy to use and beautiful.",
   "homepage": "https://github.com/Tim77277/WTStepper",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Tim77277/WTStepper.git",
-    "tag": "0.1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
