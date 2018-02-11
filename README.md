@@ -1,6 +1,5 @@
 # WTStepper
 
-[![CI Status](http://img.shields.io/travis/gsl0318@hotmail.com/WTStepper.svg?style=flat)](https://travis-ci.org/gsl0318@hotmail.com/WTStepper)
 [![Version](https://img.shields.io/cocoapods/v/WTStepper.svg?style=flat)](http://cocoapods.org/pods/WTStepper)
 [![License](https://img.shields.io/cocoapods/l/WTStepper.svg?style=flat)](http://cocoapods.org/pods/WTStepper)
 [![Platform](https://img.shields.io/cocoapods/p/WTStepper.svg?style=flat)](http://cocoapods.org/pods/WTStepper)
