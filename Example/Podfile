@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'WTStepper_Example' do
-  pod 'WTStepper', :path => '../'
+  pod 'WTStepper', '~> 1.0.1'
 
   target 'WTStepper_Tests' do
     inherit! :search_paths
